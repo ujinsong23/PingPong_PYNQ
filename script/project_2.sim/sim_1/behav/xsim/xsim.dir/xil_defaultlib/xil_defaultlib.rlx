@@ -1,0 +1,7 @@
+0.7
+v2020.2.2
+Feb  9 2021
+06:17:39
+C:/Users/user/Desktop/final_project/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,axi_vip_v1_1_8;processing_system7_vip_v1_0_10;uvm;xilinx_vip,,,,,,
+C:/Users/user/Desktop/final_project/project_2/project_2.srcs/sim_1/new/testbench.v,1638939533,verilog,,,,testbench,,axi_vip_v1_1_8;processing_system7_vip_v1_0_10;uvm;xilinx_vip,../../../../project_2.gen/sources_1/bd/design_1/ipshared/34f8/hdl;../../../../project_2.gen/sources_1/bd/design_1/ipshared/ec67/hdl;D:/Vivado/2020.2/data/xilinx_vip/include,,,,,
+C:/Users/user/Desktop/final_project/project_2/project_2.srcs/sources_1/new/racket_compositor.v,1638940083,systemVerilog,,,,racket_compositor,,axi_vip_v1_1_8;processing_system7_vip_v1_0_10;uvm;xilinx_vip,../../../../project_2.gen/sources_1/bd/design_1/ipshared/34f8/hdl;../../../../project_2.gen/sources_1/bd/design_1/ipshared/ec67/hdl;D:/Vivado/2020.2/data/xilinx_vip/include,,,,,

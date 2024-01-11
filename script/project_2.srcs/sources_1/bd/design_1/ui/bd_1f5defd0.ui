@@ -1,0 +1,91 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.58722",
+   "Default View_TopLeft":"-250,344",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1750 -y 30 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1750 -y 50 -defaultsOSRD
+preplace port miso -pg 1 -lvl 0 -x -120 -y 520 -defaultsOSRD
+preplace port mclk -pg 1 -lvl 5 -x 1750 -y 170 -defaultsOSRD
+preplace port bclk -pg 1 -lvl 5 -x 1750 -y 260 -defaultsOSRD
+preplace port lrclk -pg 1 -lvl 5 -x 1750 -y 280 -defaultsOSRD
+preplace port sdata -pg 1 -lvl 5 -x 1750 -y 300 -defaultsOSRD
+preplace port sclk -pg 1 -lvl 5 -x 1750 -y 480 -defaultsOSRD
+preplace port mosi -pg 1 -lvl 5 -x 1750 -y 500 -defaultsOSRD
+preplace port ss -pg 1 -lvl 5 -x 1750 -y 520 -defaultsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -120 -y 670 -defaultsOSRD
+preplace port RST_BTN -pg 1 -lvl 0 -x -120 -y 690 -defaultsOSRD
+preplace port btn1 -pg 1 -lvl 0 -x -120 -y 710 -defaultsOSRD
+preplace port btn2 -pg 1 -lvl 0 -x -120 -y 730 -defaultsOSRD
+preplace port clk_lock -pg 1 -lvl 5 -x 1750 -y 760 -defaultsOSRD
+preplace port de -pg 1 -lvl 5 -x 1750 -y 780 -defaultsOSRD
+preplace port hdmi_tx_cec -pg 1 -lvl 5 -x 1750 -y 620 -defaultsOSRD
+preplace port hdmi_tx_clk_n -pg 1 -lvl 5 -x 1750 -y 680 -defaultsOSRD
+preplace port hdmi_tx_clk_p -pg 1 -lvl 5 -x 1750 -y 700 -defaultsOSRD
+preplace port hdmi_tx_hpd -pg 1 -lvl 0 -x -120 -y 770 -defaultsOSRD
+preplace port hdmi_tx_rscl -pg 1 -lvl 5 -x 1750 -y 640 -defaultsOSRD
+preplace port hdmi_tx_rsda -pg 1 -lvl 5 -x 1750 -y 660 -defaultsOSRD
+preplace port led -pg 1 -lvl 5 -x 1750 -y 800 -defaultsOSRD
+preplace port restart -pg 1 -lvl 0 -x -120 -y 750 -defaultsOSRD
+preplace portBus hdmi_tx_n -pg 1 -lvl 5 -x 1750 -y 720 -defaultsOSRD
+preplace portBus hdmi_tx_p -pg 1 -lvl 5 -x 1750 -y 740 -defaultsOSRD
+preplace portBus state_led -pg 1 -lvl 5 -x 1750 -y 820 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 320 -y 80 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 320 -y 360 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 720 -y 200 -defaultsOSRD
+preplace inst myPrescaler_0 -pg 1 -lvl 3 -x 1160 -y 130 -defaultsOSRD
+preplace inst axi_fifo_mm_s_0 -pg 1 -lvl 3 -x 1160 -y 290 -defaultsOSRD
+preplace inst axi_fifo_mm_s_1 -pg 1 -lvl 3 -x 1160 -y 440 -defaultsOSRD
+preplace inst myI2STx_v1_0_0 -pg 1 -lvl 4 -x 1600 -y 280 -defaultsOSRD
+preplace inst mySPIRxTx_v1_0_0 -pg 1 -lvl 4 -x 1600 -y 490 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 720 -y 960 -defaultsOSRD
+preplace inst HDMI_TOP_0 -pg 1 -lvl 2 -x 720 -y 720 -defaultsOSRD
+preplace netloc miso_0_1 1 0 4 NJ 520 NJ 520 890 530 1360
+preplace netloc myPrescaler_0_prescale 1 3 2 1360 170 NJ
+preplace netloc myI2STx_v1_0_0_bclk 1 4 1 NJ 260
+preplace netloc myI2STx_v1_0_0_lrclk 1 4 1 NJ 280
+preplace netloc myI2STx_v1_0_0_sdata 1 4 1 NJ 300
+preplace netloc mySPIRxTx_v1_0_0_sclk 1 4 1 NJ 480
+preplace netloc mySPIRxTx_v1_0_0_mosi 1 4 1 NJ 500
+preplace netloc mySPIRxTx_v1_0_0_ss 1 4 1 NJ 520
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -100 190 530 390 910 200 1350
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 -90 200 520
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 1 540 140n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 3 560 380 920 210 1330
+preplace netloc CLK_0_1 1 0 2 NJ 670 NJ
+preplace netloc RST_BTN_0_1 1 0 2 NJ 690 NJ
+preplace netloc btn1_0_1 1 0 2 NJ 710 NJ
+preplace netloc btn2_0_1 1 0 2 NJ 730 NJ
+preplace netloc HDMI_TOP_0_clk_lock 1 2 3 NJ 760 NJ 760 NJ
+preplace netloc HDMI_TOP_0_de 1 2 3 NJ 780 NJ 780 NJ
+preplace netloc Net 1 2 3 NJ 620 NJ 620 NJ
+preplace netloc HDMI_TOP_0_hdmi_tx_clk_n 1 2 3 NJ 680 NJ 680 NJ
+preplace netloc HDMI_TOP_0_hdmi_tx_clk_p 1 2 3 NJ 700 NJ 700 NJ
+preplace netloc hdmi_tx_hpd_0_1 1 0 2 NJ 770 NJ
+preplace netloc HDMI_TOP_0_hdmi_tx_n 1 2 3 NJ 720 NJ 720 NJ
+preplace netloc HDMI_TOP_0_hdmi_tx_p 1 2 3 NJ 740 NJ 740 NJ
+preplace netloc Net1 1 2 3 NJ 640 NJ 640 NJ
+preplace netloc Net2 1 2 3 NJ 660 NJ 660 NJ
+preplace netloc HDMI_TOP_0_led 1 2 3 NJ 800 NJ 800 NJ
+preplace netloc restart_0_1 1 0 2 NJ 750 NJ
+preplace netloc HDMI_TOP_0_state_led 1 2 3 900J 820 NJ 820 NJ
+preplace netloc axi_fifo_mm_s_1_AXI_STR_TXD 1 3 1 1340 410n
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 900 180n
+preplace netloc axi_fifo_mm_s_0_AXI_STR_TXD 1 3 1 1340 250n
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 30 N 30 N 30 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 550J 360 880 50 N 50 NJ
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 890 200n
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 530 90n
+preplace netloc mySPIRxTx_v1_0_0_m00_axis 1 2 3 930 580 N 580 1730
+preplace netloc axi_interconnect_0_M02_AXI 1 1 2 570 370 870
+levelinfo -pg 1 -120 320 720 1160 1600 1750
+pagesize -pg 1 -db -bbox -sgen -260 -330 1900 1170
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}
